@@ -24,6 +24,7 @@ module Rubypress
       execute('uploadFile', default_options)
     end
 
+
   end
 
 end

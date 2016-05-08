@@ -71,6 +71,9 @@ module Rubypress
       execute('getPostStatusList', options)
     end
 
+    def setPostThubnail(options = {})
+      execute('setPostThubnail', options)
+    end
   end
 
 end
